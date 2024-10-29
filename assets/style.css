@@ -1,0 +1,93 @@
+.adb-top-banner {
+	position: absolute;
+	z-index: 9999;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	max-height: 65px;
+	right: 0;
+	left: 0;
+	box-shadow: 0 5px 11px #cacaca82;
+}
+
+.adb-top-banner>div {
+	position: relative;
+}
+
+.adb-close-banner {
+	position: absolute;
+	right: 5px;
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #cccccc7a;
+	top: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.adb-close-banner>div {
+	position: relative;
+}
+
+.adb-close-banner>div:after {
+	position: absolute;
+	content: 'X';
+	height: 100%;
+	font-size: 8px;
+	text-align: center;
+	font-family: Arial;
+	width: 100%;
+	top: 1px;
+	vertical-align: middle;
+	z-index: 1;
+}
+
+
+.adb-banner-content {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	line-height: 1.18;
+}
+
+.adb-banner-headline>span {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.adb-banner-description {
+	display: block;
+	margin: 0 8%;
+	max-width: 230px;
+	font-size: 14px;
+	width: 100%;
+}
+
+.adb-banner-description>span {
+	display: inline-block;
+	width: 120%;
+}
+
+.adb-banner-logo {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	max-width: 50px;
+	width: 100%;
+}
+
+.adb-banner-logo-image>img {
+	width: 100%;
+}
+
+
+
+/* ACCESSBILTY PLUGIN FIX */
+
+*>body .accessability_container{
+    top: 50px!important;
+}
